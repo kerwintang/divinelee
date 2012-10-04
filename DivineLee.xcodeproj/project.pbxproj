@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B6CB17E161DE30A006C7753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6CB17D161DE30A006C7753 /* UIKit.framework */; };
+		7B6CB180161DE30A006C7753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6CB17F161DE30A006C7753 /* Foundation.framework */; };
+		7B6CB182161DE30A006C7753 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6CB181161DE30A006C7753 /* CoreGraphics.framework */; };
+		7B6CB188161DE30A006C7753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B6CB186161DE30A006C7753 /* InfoPlist.strings */; };
+		7B6CB18A161DE30A006C7753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CB189161DE30A006C7753 /* main.m */; };
+		7B6CB18E161DE30A006C7753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CB18D161DE30A006C7753 /* AppDelegate.m */; };
+		7B6CB196161DE30A006C7753 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6CB195161DE30A006C7753 /* SenTestingKit.framework */; };
+		7B6CB197161DE30A006C7753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6CB17D161DE30A006C7753 /* UIKit.framework */; };
+		7B6CB198161DE30A006C7753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6CB17F161DE30A006C7753 /* Foundation.framework */; };
+		7B6CB1A0161DE30B006C7753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B6CB19E161DE30B006C7753 /* InfoPlist.strings */; };
+		7B6CB1A3161DE30B006C7753 /* DivineLeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CB1A2161DE30B006C7753 /* DivineLeeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6CB199161DE30A006C7753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6CB170161DE30A006C7753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6CB178161DE30A006C7753;
+			remoteInfo = DivineLee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B6CB179161DE30A006C7753 /* DivineLee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DivineLee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6CB17D161DE30A006C7753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B6CB17F161DE30A006C7753 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B6CB181161DE30A006C7753 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B6CB185161DE30A006C7753 /* DivineLee-Info.plist */ = {isa = PBXFileReference; path = "DivineLee-Info.plist"; sourceTree = "<group>"; };
+		7B6CB187161DE30A006C7753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B6CB189161DE30A006C7753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B6CB18B161DE30A006C7753 /* DivineLee-Prefix.pch */ = {isa = PBXFileReference; path = "DivineLee-Prefix.pch"; sourceTree = "<group>"; };
+		7B6CB18C161DE30A006C7753 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B6CB18D161DE30A006C7753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B6CB194161DE30A006C7753 /* DivineLeeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivineLeeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6CB195161DE30A006C7753 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7B6CB19D161DE30B006C7753 /* DivineLeeTests-Info.plist */ = {isa = PBXFileReference; path = "DivineLeeTests-Info.plist"; sourceTree = "<group>"; };
+		7B6CB19F161DE30B006C7753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B6CB1A1161DE30B006C7753 /* DivineLeeTests.h */ = {isa = PBXFileReference; path = DivineLeeTests.h; sourceTree = "<group>"; };
+		7B6CB1A2161DE30B006C7753 /* DivineLeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivineLeeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B6CB176161DE30A006C7753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6CB17E161DE30A006C7753 /* UIKit.framework in Frameworks */,
+				7B6CB180161DE30A006C7753 /* Foundation.framework in Frameworks */,
+				7B6CB182161DE30A006C7753 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6CB190161DE30A006C7753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6CB196161DE30A006C7753 /* SenTestingKit.framework in Frameworks */,
+				7B6CB197161DE30A006C7753 /* UIKit.framework in Frameworks */,
+				7B6CB198161DE30A006C7753 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6CB16E161DE30A006C7753 = {
+			isa = PBXGroup;
+			children = (
+				7B6CB183161DE30A006C7753 /* DivineLee */,
+				7B6CB19B161DE30A006C7753 /* DivineLeeTests */,
+				7B6CB17C161DE30A006C7753 /* Frameworks */,
+				7B6CB17A161DE30A006C7753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B6CB17A161DE30A006C7753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CB179161DE30A006C7753 /* DivineLee.app */,
+				7B6CB194161DE30A006C7753 /* DivineLeeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B6CB17C161DE30A006C7753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CB17D161DE30A006C7753 /* UIKit.framework */,
+				7B6CB17F161DE30A006C7753 /* Foundation.framework */,
+				7B6CB181161DE30A006C7753 /* CoreGraphics.framework */,
+				7B6CB195161DE30A006C7753 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B6CB183161DE30A006C7753 /* DivineLee */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CB18C161DE30A006C7753 /* AppDelegate.h */,
+				7B6CB18D161DE30A006C7753 /* AppDelegate.m */,
+				7B6CB184161DE30A006C7753 /* Supporting Files */,
+			);
+			path = DivineLee;
+			sourceTree = "<group>";
+		};
+		7B6CB184161DE30A006C7753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CB185161DE30A006C7753 /* DivineLee-Info.plist */,
+				7B6CB186161DE30A006C7753 /* InfoPlist.strings */,
+				7B6CB189161DE30A006C7753 /* main.m */,
+				7B6CB18B161DE30A006C7753 /* DivineLee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B6CB19B161DE30A006C7753 /* DivineLeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CB1A1161DE30B006C7753 /* DivineLeeTests.h */,
+				7B6CB1A2161DE30B006C7753 /* DivineLeeTests.m */,
+				7B6CB19C161DE30B006C7753 /* Supporting Files */,
+			);
+			path = DivineLeeTests;
+			sourceTree = "<group>";
+		};
+		7B6CB19C161DE30B006C7753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CB19D161DE30B006C7753 /* DivineLeeTests-Info.plist */,
+				7B6CB19E161DE30B006C7753 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B6CB178161DE30A006C7753 /* DivineLee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6CB1A6161DE30B006C7753 /* Build configuration list for PBXNativeTarget "DivineLee" */;
+			buildPhases = (
+				7B6CB175161DE30A006C7753 /* Sources */,
+				7B6CB176161DE30A006C7753 /* Frameworks */,
+				7B6CB177161DE30A006C7753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DivineLee;
+			productName = DivineLee;
+			productReference = 7B6CB179161DE30A006C7753 /* DivineLee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B6CB193161DE30A006C7753 /* DivineLeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6CB1A9161DE30B006C7753 /* Build configuration list for PBXNativeTarget "DivineLeeTests" */;
+			buildPhases = (
+				7B6CB18F161DE30A006C7753 /* Sources */,
+				7B6CB190161DE30A006C7753 /* Frameworks */,
+				7B6CB191161DE30A006C7753 /* Resources */,
+				7B6CB192161DE30A006C7753 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6CB19A161DE30A006C7753 /* PBXTargetDependency */,
+			);
+			name = DivineLeeTests;
+			productName = DivineLeeTests;
+			productReference = 7B6CB194161DE30A006C7753 /* DivineLeeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6CB170161DE30A006C7753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7B6CB173161DE30A006C7753 /* Build configuration list for PBXProject "DivineLee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B6CB16E161DE30A006C7753;
+			productRefGroup = 7B6CB17A161DE30A006C7753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B6CB178161DE30A006C7753 /* DivineLee */,
+				7B6CB193161DE30A006C7753 /* DivineLeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B6CB177161DE30A006C7753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6CB188161DE30A006C7753 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6CB191161DE30A006C7753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6CB1A0161DE30B006C7753 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B6CB192161DE30A006C7753 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6CB175161DE30A006C7753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6CB18A161DE30A006C7753 /* main.m in Sources */,
+				7B6CB18E161DE30A006C7753 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6CB18F161DE30A006C7753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6CB1A3161DE30B006C7753 /* DivineLeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6CB19A161DE30A006C7753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6CB178161DE30A006C7753 /* DivineLee */;
+			targetProxy = 7B6CB199161DE30A006C7753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B6CB186161DE30A006C7753 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6CB187161DE30A006C7753 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B6CB19E161DE30B006C7753 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6CB19F161DE30B006C7753 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B6CB1A4161DE30B006C7753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B6CB1A5161DE30B006C7753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6CB1A7161DE30B006C7753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DivineLee/DivineLee-Prefix.pch";
+				INFOPLIST_FILE = "DivineLee/DivineLee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B6CB1A8161DE30B006C7753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DivineLee/DivineLee-Prefix.pch";
+				INFOPLIST_FILE = "DivineLee/DivineLee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7B6CB1AA161DE30B006C7753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DivineLee.app/DivineLee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DivineLee/DivineLee-Prefix.pch";
+				INFOPLIST_FILE = "DivineLeeTests/DivineLeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7B6CB1AB161DE30B006C7753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DivineLee.app/DivineLee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DivineLee/DivineLee-Prefix.pch";
+				INFOPLIST_FILE = "DivineLeeTests/DivineLeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B6CB173161DE30A006C7753 /* Build configuration list for PBXProject "DivineLee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6CB1A4161DE30B006C7753 /* Debug */,
+				7B6CB1A5161DE30B006C7753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6CB1A6161DE30B006C7753 /* Build configuration list for PBXNativeTarget "DivineLee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6CB1A7161DE30B006C7753 /* Debug */,
+				7B6CB1A8161DE30B006C7753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B6CB1A9161DE30B006C7753 /* Build configuration list for PBXNativeTarget "DivineLeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6CB1AA161DE30B006C7753 /* Debug */,
+				7B6CB1AB161DE30B006C7753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B6CB170161DE30A006C7753 /* Project object */;
+}
