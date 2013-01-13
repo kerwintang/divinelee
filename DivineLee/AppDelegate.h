@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SplashViewController.h"
+#import "FBConnect.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : UIResponder <UIApplicationDelegate, FBSessionDelegate>{
+    
+    Facebook *facebook;
+    SplashViewController *splashViewController;
+}
+
+@property (strong, nonatomic) Facebook *facebook;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) IBOutlet SplashViewController *splashViewController;
 
 @end

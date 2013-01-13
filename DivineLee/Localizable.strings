@@ -1,0 +1,4 @@
+"ShareEmailSubject"="Divine Lee Mobile App Alert";
+"ShareEmailMessage"="Hi! There's this great article I found from the Divine Lee Mobile App. Check it out!<br><br><b>{TITLE}</b><br><br> {LINK}";
+"ShareTweetMessage"="Divine Lee: {TITLE} {LINK}";
+"ShareFacebookMessage"="<b>{TITLE}</b> {LINK}";
